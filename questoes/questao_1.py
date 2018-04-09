@@ -23,7 +23,7 @@ def sort(myNumbers):
 
 
 def main():
-    myNumbers = [int(number) for number in input(
+    myNumbers = [float(number) for number in input(
         'Type the five numbers spaced between(Such as: 5 4 3 2 1): ').split()]
     sort(myNumbers)
 
